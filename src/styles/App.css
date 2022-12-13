@@ -1,0 +1,84 @@
+
+h1 {
+    color: white;
+    text-align: center;
+    }
+textarea{
+    background-color: black;
+    border-color: #3705ff;
+    color:white;
+    width: 70%;
+}  
+
+button,.delete,.edit{
+    background-color: #3705ff;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-color: #3705ff;
+    padding: 2%;
+    margin-left: 5px;
+    width:30%
+}
+.delete,.edit{
+    width:100%
+}
+
+
+button:hover{
+    background-color: #0512ff;
+    border-color: #0512ff;
+}
+
+.bg-pink{
+	background-color:pink;
+}
+#ToDo-container{
+    width:300px;
+    margin: auto;
+    border: 1px solid black;
+}
+.add-todo-container,.edit-todo-container{
+    display:flex;
+    width: 300px;
+}
+.task-container{
+    display: flex;
+    padding: 2%;
+    border: 1px solid;
+    justify-content: space-between;
+}
+/* .task-container span{
+    justify-content: left;
+} */
+/* .task-container button{
+    float: right;
+} */
+
+.task-control{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+.list{
+    background-color: #3705ff;
+    border-color: #000000;
+}
+.edit{
+    width: 30px;
+    height: 2.5em;
+    background-image: url('https://e7.pngegg.com/pngimages/461/1024/png-clipart-computer-icons-editing-edit-icon-cdr-angle.png');
+    /* background-color: #3705ff; */
+    background-size: cover;
+}
+.delete{
+    width: 30px;
+    height: 2.5em;
+    background-image: url('https://banner2.cleanpng.com/20180711/wru/kisspng-computer-icons-clip-art-delete-image-icon-5b45dc96b07912.1758854315313051107228.jpg');
+    background-size: cover;
+}
